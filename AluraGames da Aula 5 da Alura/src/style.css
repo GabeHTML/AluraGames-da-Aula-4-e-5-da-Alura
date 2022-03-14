@@ -1,0 +1,67 @@
+body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  background-image: url("https://1.bp.blogspot.com/-SgOP6HxLsGk/XedNeme-q9I/AAAAAAAAhME/thJVXu5RF0cDgmIFhw8AXc3PZEX4HR62gCLcBGAsYHQ/s2560/battlefield-1-4k-2019-v8-2560x1440.jpg");
+  background-color: #000000;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ff0000;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 60px;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 250px;
+}
+
+fieldset {
+  border-radius: 6px;
+  background: rgba( 255, 255, 255, 0.1 );
+  backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 10px );
+  import { ActivityIndicator, Stylesheet, View } from 'react-native' ;
+  
+  export defaut function App() {
+    return (
+      <View style={styles.container}>
+        <ActivityIndicator color="#ff0066"  />
+      </View>
+   );
+  }
+  
+  const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      bachgroundColor: '#fff' ,
+        alignItems: 'center' ,
+        justifyContent: 'center' ,
+    },
+  });
+}
